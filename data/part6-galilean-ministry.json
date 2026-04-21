@@ -1,0 +1,52 @@
+{
+  "id": "part6",
+  "title": "Part Six: Galilean Ministry",
+  "period": "~27–28 AD",
+  "events": [
+    {
+      "id": 29,
+      "title": "The Beginning of Jesus' Ministry",
+      "scripture": "J 2,1-11",
+      "description": "Pierwszy cud – wesele w Kanie Galilejskiej",
+      "year": "~27 AD",
+      "location": "Cana, Galilee",
+      "category": "miracle"
+    },
+    {
+      "id": 30,
+      "title": "Jesus Cleanses the Temple",
+      "scripture": "J 2,12-25",
+      "description": "Oczyszczenie świątyni",
+      "year": "~27 AD",
+      "location": "Jerusalem, Temple",
+      "category": "milestone"
+    },
+    {
+      "id": 31,
+      "title": "Nicodemus Visits Jesus",
+      "scripture": "J 3,1-21",
+      "description": "Rozmowa z Nikodemem – narodzenie na nowo",
+      "year": "~27 AD",
+      "location": "Jerusalem",
+      "category": "teaching"
+    },
+    {
+      "id": 32,
+      "title": "John's Final Testimony",
+      "scripture": "J 3,22-36",
+      "description": "Ostatnie świadectwo Jana Chrzciciela",
+      "year": "~27–28 AD",
+      "location": "Aenon near Salim",
+      "category": "ministry-start"
+    },
+    {
+      "id": 33,
+      "title": "Jesus Leaves for Galilee",
+      "scripture": "Mt 4,12; Mk 1,14; Łk 4,14; J 4,1-3",
+      "description": "Powrót Jezusa do Galilei po uwięzieniu Jana",
+      "year": "~28 AD",
+      "location": "Judea / Galilee",
+      "category": "milestone"
+    }
+  ]
+}

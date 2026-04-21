@@ -1,0 +1,43 @@
+{
+  "id": "part4",
+  "title": "Part Four: Ministry of John the Baptist",
+  "period": "~26–27 AD",
+  "events": [
+    {
+      "id": 20,
+      "title": "Setting the Stage",
+      "scripture": "Mk 1,1; Łk 3,1-2",
+      "description": "Tło historyczne – rządy Tyberiusza, Piłata, Heroda itp.",
+      "year": "~26–27 AD",
+      "location": "Judea / Galilee",
+      "category": "ministry-start"
+    },
+    {
+      "id": 21,
+      "title": "The Ministry of John the Baptist",
+      "scripture": "Mt 3,1-6; Mk 1,2-6; Łk 3,3-6",
+      "description": "Działalność Jana na pustyni – chrzest pokuty",
+      "year": "~26–27 AD",
+      "location": "Judean Desert / Jordan River",
+      "category": "ministry-start"
+    },
+    {
+      "id": 22,
+      "title": "John's Message of Repentance",
+      "scripture": "Mt 3,7-10; Łk 3,7-14",
+      "description": "Kazanie Jana o nawróceniu i owocach pokuty",
+      "year": "~26–27 AD",
+      "location": "Jordan River",
+      "category": "ministry-start"
+    },
+    {
+      "id": 23,
+      "title": "John's Messianic Prophecy",
+      "scripture": "Mt 3,11-12; Mk 1,7-8; Łk 3,15-18",
+      "description": "Jan zapowiada Mocniejszego (Jezusa)",
+      "year": "~26–27 AD",
+      "location": "Jordan River",
+      "category": "ministry-start"
+    }
+  ]
+}
