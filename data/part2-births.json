@@ -1,0 +1,106 @@
+{
+  "id": "part2",
+  "title": "Part Two: Two Divine Births",
+  "period": "~6 BC – 8 AD",
+  "events": [
+    {
+      "id": 4,
+      "title": "John's Birth Revealed to Zechariah",
+      "scripture": "Łk 1,5-25",
+      "description": "Zwiastowanie narodzin Jana Chrzciciela",
+      "year": "~6 BC",
+      "location": "Jerusalem, Temple",
+      "category": "birth"
+    },
+    {
+      "id": 5,
+      "title": "Announcement of the Birth of Jesus",
+      "scripture": "Łk 1,26-38",
+      "description": "Zwiastowanie Maryi",
+      "year": "~6 BC",
+      "location": "Nazareth",
+      "category": "birth"
+    },
+    {
+      "id": 6,
+      "title": "Mary Visits Elizabeth",
+      "scripture": "Łk 1,39-56",
+      "description": "Maryja u Elżbiety – Magnificat",
+      "year": "~6 BC",
+      "location": "Judean Hill Country",
+      "category": "birth"
+    },
+    {
+      "id": 7,
+      "title": "Birth of John the Baptist",
+      "scripture": "Łk 1,57-80",
+      "description": "Narodzenie Jana Chrzciciela",
+      "year": "~6 BC",
+      "location": "Judea",
+      "category": "birth"
+    },
+    {
+      "id": 8,
+      "title": "Joseph's Dream",
+      "scripture": "Mt 1,18-25",
+      "description": "Sen Józefa",
+      "year": "~6 BC",
+      "location": "Nazareth",
+      "category": "birth"
+    },
+    {
+      "id": 9,
+      "title": "Birth of Jesus",
+      "scripture": "Łk 2,1-7",
+      "description": "Narodzenie Jezusa w Betlejem",
+      "year": "~6–4 BC",
+      "location": "Bethlehem",
+      "category": "birth"
+    },
+    {
+      "id": 10,
+      "title": "Angels and Shepherds",
+      "scripture": "Łk 2,8-20",
+      "description": "Aniołowie i pasterze",
+      "year": "~6–4 BC",
+      "location": "Bethlehem",
+      "category": "birth"
+    },
+    {
+      "id": 11,
+      "title": "Circumcision and Presentation",
+      "scripture": "Łk 2,21-38",
+      "description": "Obrzezanie i przedstawienie w świątyni",
+      "year": "~6–4 BC",
+      "location": "Jerusalem, Temple",
+      "category": "birth"
+    },
+    {
+      "id": 12,
+      "title": "Visit of the Magi",
+      "scripture": "Mt 2,1-12",
+      "description": "Pokłon Mędrców",
+      "year": "~5–4 BC",
+      "location": "Bethlehem",
+      "category": "birth"
+    },
+    {
+      "id": 13,
+      "title": "Flight to Egypt and Return",
+      "scripture": "Mt 2,13-23",
+      "description": "Ucieczka do Egiptu i powrót",
+      "year": "~4 BC",
+      "location": "Egypt / Nazareth",
+      "category": "birth"
+    },
+    {
+      "id": 14,
+      "title": "Jesus in the Temple as a Boy",
+      "scripture": "Łk 2,41-52",
+      "description": "Dwunastoletni Jezus w świątyni",
+      "year": "~8 AD",
+      "location": "Jerusalem, Temple",
+      "category": "birth"
+    }
+  ]
+}

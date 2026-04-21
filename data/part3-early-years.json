@@ -1,0 +1,97 @@
+{
+  "id": "part3",
+  "title": "Part Three: The Early Years of Jesus Christ",
+  "period": "~6 BC – 27 AD",
+  "events": [
+    {
+      "id": 9,
+      "title": "Joseph Learns of Jesus",
+      "scripture": "Mt 1,18-25",
+      "description": "Józef dowiaduje się o poczęciu",
+      "year": "~6 BC",
+      "location": "Nazareth",
+      "category": "early-life"
+    },
+    {
+      "id": 10,
+      "title": "Birth of Jesus",
+      "scripture": "Łk 2,1-7",
+      "description": "Narodzenie Jezusa",
+      "year": "~6–4 BC",
+      "location": "Bethlehem",
+      "category": "early-life"
+    },
+    {
+      "id": 11,
+      "title": "Angels and Shepherds",
+      "scripture": "Łk 2,8-20",
+      "description": "Zwiastowanie pasterzom",
+      "year": "~6–4 BC",
+      "location": "Bethlehem",
+      "category": "early-life"
+    },
+    {
+      "id": 12,
+      "title": "Circumcision and Presentation in the Temple",
+      "scripture": "Łk 2,21-38",
+      "description": "Obrzezanie i Symeon/Anna",
+      "year": "~6–4 BC",
+      "location": "Jerusalem, Temple",
+      "category": "early-life"
+    },
+    {
+      "id": 13,
+      "title": "Visit of the Magi",
+      "scripture": "Mt 2,1-12",
+      "description": "Mędrcy ze Wschodu",
+      "year": "~5–4 BC",
+      "location": "Bethlehem",
+      "category": "early-life"
+    },
+    {
+      "id": 14,
+      "title": "Flight to Egypt and Return",
+      "scripture": "Mt 2,13-23",
+      "description": "Ucieczka do Egiptu",
+      "year": "~4 BC",
+      "location": "Egypt / Nazareth",
+      "category": "early-life"
+    },
+    {
+      "id": 15,
+      "title": "Jesus in the Temple as a Boy",
+      "scripture": "Łk 2,41-52",
+      "description": "Jezus w świątyni (12 lat)",
+      "year": "~8 AD",
+      "location": "Jerusalem, Temple",
+      "category": "early-life"
+    },
+    {
+      "id": 18,
+      "title": "Ministry of John the Baptist Begins",
+      "scripture": "Mt 3,1-6; Mk 1,2-6; Łk 3,1-6",
+      "description": "Początek działalności Jana Chrzciciela",
+      "year": "~26–27 AD",
+      "location": "Judean Desert / Jordan River",
+      "category": "ministry-start"
+    },
+    {
+      "id": 21,
+      "title": "Jesus' Baptism",
+      "scripture": "Mt 3,13-17; Mk 1,9-11; Łk 3,21-23",
+      "description": "Chrzest Jezusa",
+      "year": "~27 AD",
+      "location": "Jordan River",
+      "category": "ministry-start"
+    },
+    {
+      "id": 23,
+      "title": "Temptation of Jesus",
+      "scripture": "Mt 4,1-11; Mk 1,12-13; Łk 4,1-13",
+      "description": "Kuszenie na pustyni",
+      "year": "~27 AD",
+      "location": "Judean Desert",
+      "category": "ministry-start"
+    }
+  ]
+}
