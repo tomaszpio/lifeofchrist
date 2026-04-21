@@ -1,0 +1,97 @@
+{
+  "id": "part13",
+  "title": "Part Thirteen: The Resurrection and Ascension of Jesus",
+  "period": "~33 AD",
+  "events": [
+    {
+      "id": 150,
+      "title": "The Empty Tomb",
+      "scripture": "Mt 28,1-8; Mk 16,1-8; Łk 24,1-12; J 20,1-10",
+      "description": "Odkrycie pustego grobu przez kobiety i uczniów",
+      "year": "~33 AD",
+      "location": "Jerusalem, Garden Tomb",
+      "category": "resurrection"
+    },
+    {
+      "id": 151,
+      "title": "Jesus Appears to Mary Magdalene",
+      "scripture": "Mk 16,9-11; J 20,11-18",
+      "description": "Zmartwychwstały Jezus ukazuje się Marii Magdalenie",
+      "year": "~33 AD",
+      "location": "Jerusalem, Garden Tomb",
+      "category": "resurrection"
+    },
+    {
+      "id": 152,
+      "title": "Jesus Appears to the Women",
+      "scripture": "Mt 28,9-10",
+      "description": "Jezus ukazuje się innym kobietom",
+      "year": "~33 AD",
+      "location": "Jerusalem",
+      "category": "resurrection"
+    },
+    {
+      "id": 153,
+      "title": "The Guards' Report",
+      "scripture": "Mt 28,11-15",
+      "description": "Żołnierze donoszą arcykapłanom",
+      "year": "~33 AD",
+      "location": "Jerusalem",
+      "category": "resurrection"
+    },
+    {
+      "id": 154,
+      "title": "Jesus Appears to Two on the Road to Emmaus",
+      "scripture": "Mk 16,12-13; Łk 24,13-35",
+      "description": "Spotkanie z dwoma uczniami w drodze do Emaus",
+      "year": "~33 AD",
+      "location": "Road to Emmaus",
+      "category": "resurrection"
+    },
+    {
+      "id": 155,
+      "title": "Jesus Appears to the Disciples (Without Thomas)",
+      "scripture": "Mk 16,14; Łk 24,36-43; J 20,19-23",
+      "description": "Ukazuje się apostołom (bez Tomasza)",
+      "year": "~33 AD",
+      "location": "Jerusalem, Upper Room",
+      "category": "resurrection"
+    },
+    {
+      "id": 156,
+      "title": "Jesus Appears to Thomas",
+      "scripture": "J 20,24-29",
+      "description": "Ukazuje się Tomaszowi – „Mój Pan i mój Bóg"",
+      "year": "~33 AD",
+      "location": "Jerusalem, Upper Room",
+      "category": "resurrection"
+    },
+    {
+      "id": 157,
+      "title": "Jesus Appears at the Sea of Galilee",
+      "scripture": "J 21,1-25",
+      "description": "Jezus nad Jeziorem Galilejskim – cudowny połów i przywrócenie Piotra",
+      "year": "~33 AD",
+      "location": "Sea of Galilee",
+      "category": "resurrection"
+    },
+    {
+      "id": 158,
+      "title": "The Great Commission",
+      "scripture": "Mt 28,16-20; Mk 16,15-18",
+      "description": "Wielkie Zlecenie",
+      "year": "~33 AD",
+      "location": "Galilee",
+      "category": "resurrection"
+    },
+    {
+      "id": 159,
+      "title": "The Ascension",
+      "scripture": "Mk 16,19-20; Łk 24,44-53; Dz 1,1-12",
+      "description": "Wniebowstąpienie Jezusa",
+      "year": "~33 AD",
+      "location": "Mount of Olives, Jerusalem",
+      "category": "resurrection"
+    }
+  ]
+}
