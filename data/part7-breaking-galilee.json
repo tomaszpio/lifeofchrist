@@ -1,0 +1,88 @@
+{
+  "id": "part7",
+  "title": "Part Seven: Breaking Away from Galilee",
+  "period": "~29 AD",
+  "events": [
+    {
+      "id": 72,
+      "title": "Aborted Attempt at R & R",
+      "scripture": "Mt 14,13-14; Mk 6,30-34; Łk 9,10",
+      "description": "Nieudana próba odpoczynku – tłumy podążają za Jezusem",
+      "year": "~29 AD",
+      "location": "Sea of Galilee",
+      "category": "milestone"
+    },
+    {
+      "id": 73,
+      "title": "Feeding the 5000",
+      "scripture": "Mt 14,15-21; Mk 6,35-44; Łk 9,11-17; J 6,1-15",
+      "description": "Nakarmienie pięciu tysięcy",
+      "year": "~29 AD",
+      "location": "Near Bethsaida",
+      "category": "miracle"
+    },
+    {
+      "id": 74,
+      "title": "Walking on Water",
+      "scripture": "Mt 14,22-33; Mk 6,45-52; J 6,16-21",
+      "description": "Jezus chodzi po wodzie",
+      "year": "~29 AD",
+      "location": "Sea of Galilee",
+      "category": "miracle"
+    },
+    {
+      "id": 75,
+      "title": "Healing in Gennesaret",
+      "scripture": "Mt 14,34-36; Mk 6,53-56",
+      "description": "Uzdrawianie w Genezaret",
+      "year": "~29 AD",
+      "location": "Gennesaret",
+      "category": "miracle"
+    },
+    {
+      "id": 76,
+      "title": "Bread of Life Discourse",
+      "scripture": "J 6,22-71",
+      "description": "Mowa o Chlebie Życia",
+      "year": "~29 AD",
+      "location": "Capernaum",
+      "category": "teaching"
+    },
+    {
+      "id": 77,
+      "title": "Tradition of the Elders",
+      "scripture": "Mt 15,1-20; Mk 7,1-23",
+      "description": "Tradycje starszych",
+      "year": "~29 AD",
+      "location": "Galilee",
+      "category": "teaching"
+    },
+    {
+      "id": 78,
+      "title": "Ministry in Tyre and Sidon",
+      "scripture": "Mt 15,21-28; Mk 7,24-30",
+      "description": "Kobieta kananejska",
+      "year": "~29 AD",
+      "location": "Tyre and Sidon",
+      "category": "miracle"
+    },
+    {
+      "id": 79,
+      "title": "Healing the Deaf-Mute",
+      "scripture": "Mk 7,31-37",
+      "description": "Uzdrawianie głuchoniemego",
+      "year": "~29 AD",
+      "location": "Decapolis",
+      "category": "miracle"
+    },
+    {
+      "id": 80,
+      "title": "Feeding the 4000",
+      "scripture": "Mt 15,29-39; Mk 8,1-10",
+      "description": "Nakarmienie czterech tysięcy",
+      "year": "~29 AD",
+      "location": "Decapolis",
+      "category": "miracle"
+    }
+  ]
+}
