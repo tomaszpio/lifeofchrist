@@ -7,7 +7,7 @@
       "id": 9,
       "title": "Joseph Learns of Jesus",
       "scripture": "Mt 1,18-25",
-      "description": "Józef dowiaduje się o poczęciu",
+      "description": "Józef dowiaduje się o poczęciu Maryi",
       "year": "~6 BC",
       "location": "Nazareth",
       "category": "early-life"
@@ -16,7 +16,7 @@
       "id": 10,
       "title": "Birth of Jesus",
       "scripture": "Łk 2,1-7",
-      "description": "Narodzenie Jezusa",
+      "description": "Narodzenie Jezusa w Betlejem",
       "year": "~6–4 BC",
       "location": "Bethlehem",
       "category": "early-life"
@@ -34,7 +34,7 @@
       "id": 12,
       "title": "Circumcision and Presentation in the Temple",
       "scripture": "Łk 2,21-38",
-      "description": "Obrzezanie i Symeon/Anna",
+      "description": "Obrzezanie i Symeon + Anna",
       "year": "~6–4 BC",
       "location": "Jerusalem, Temple",
       "category": "early-life"
@@ -43,7 +43,7 @@
       "id": 13,
       "title": "Visit of the Magi",
       "scripture": "Mt 2,1-12",
-      "description": "Mędrcy ze Wschodu",
+      "description": "Pokłon Mędrców",
       "year": "~5–4 BC",
       "location": "Bethlehem",
       "category": "early-life"
@@ -52,7 +52,7 @@
       "id": 14,
       "title": "Flight to Egypt and Return",
       "scripture": "Mt 2,13-23",
-      "description": "Ucieczka do Egiptu",
+      "description": "Ucieczka do Egiptu i powrót do Nazaretu",
       "year": "~4 BC",
       "location": "Egypt / Nazareth",
       "category": "early-life"
@@ -61,9 +61,27 @@
       "id": 15,
       "title": "Jesus in the Temple as a Boy",
       "scripture": "Łk 2,41-52",
-      "description": "Jezus w świątyni (12 lat)",
+      "description": "Dwunastoletni Jezus w świątyni",
       "year": "~8 AD",
       "location": "Jerusalem, Temple",
+      "category": "early-life"
+    },
+    {
+      "id": 16,
+      "title": "John the Baptist's Early Life",
+      "scripture": "Łk 1,80",
+      "description": "Wzrost Jana na pustyni",
+      "year": "~6 BC – 26 AD",
+      "location": "Judean Desert",
+      "category": "early-life"
+    },
+    {
+      "id": 17,
+      "title": "Jesus' Early Life",
+      "scripture": "Łk 2,40.52",
+      "description": "Wzrost i rozwój Jezusa w Nazarecie",
+      "year": "~4 BC – 26 AD",
+      "location": "Nazareth",
       "category": "early-life"
     },
     {
@@ -76,6 +94,24 @@
       "category": "ministry-start"
     },
     {
+      "id": 19,
+      "title": "John's Message of Repentance",
+      "scripture": "Mt 3,7-10; Łk 3,7-14",
+      "description": "Kazanie Jana o pokucie",
+      "year": "~26–27 AD",
+      "location": "Jordan River",
+      "category": "ministry-start"
+    },
+    {
+      "id": 20,
+      "title": "John's Messianic Prophecy",
+      "scripture": "Mt 3,11-12; Mk 1,7-8; Łk 3,15-18",
+      "description": "Jan zapowiada Mocniejszego",
+      "year": "~26–27 AD",
+      "location": "Jordan River",
+      "category": "ministry-start"
+    },
+    {
       "id": 21,
       "title": "Jesus' Baptism",
       "scripture": "Mt 3,13-17; Mk 1,9-11; Łk 3,21-23",
@@ -85,10 +121,19 @@
       "category": "ministry-start"
     },
     {
+      "id": 22,
+      "title": "Jesus' Genealogy",
+      "scripture": "Łk 3,23-38",
+      "description": "Rodowód Jezusa",
+      "year": "~27 AD",
+      "location": "",
+      "category": "early-life"
+    },
+    {
       "id": 23,
       "title": "Temptation of Jesus",
       "scripture": "Mt 4,1-11; Mk 1,12-13; Łk 4,1-13",
-      "description": "Kuszenie na pustyni",
+      "description": "Kuszenie Jezusa na pustyni",
       "year": "~27 AD",
       "location": "Judean Desert",
       "category": "ministry-start"
