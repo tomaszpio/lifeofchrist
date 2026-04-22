@@ -395,6 +395,8 @@
     sections.forEach(section => {
       const heading = buildSectionHeading(section);
       const timeline = buildTimeline(section.events);
+      heading.classList.add('collapsed');
+      timeline.classList.add('collapsed');
       heading.addEventListener('click', () => toggleSection(heading, timeline));
       app.appendChild(heading);
       app.appendChild(timeline);
