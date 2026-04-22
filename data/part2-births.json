@@ -7,100 +7,111 @@
       "id": 4,
       "title": "Zwiastowanie narodzin Jana Zachariaszowi",
       "scripture": "Łk 1,5-25",
-      "description": "Zwiastowanie narodzin Jana Chrzciciela",
+      "description": "Gabriel zwiastuje Zachariaszowi w świątyni narodziny Jana – Nazirejczyka w duchu Eliasza. Kara niemoty za brak wiary.",
       "year": "~6 BC",
       "location": "Jerozolima, Świątynia",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 5,
       "title": "Zwiastowanie Maryi",
       "scripture": "Łk 1,26-38",
-      "description": "Zwiastowanie Maryi",
+      "description": "Gabriel w Nazarecie zwiastuje Maryi dziewicze poczęcie Jezusa – Syna Najwyższego, wiecznego Króla.",
       "year": "~6 BC",
       "location": "Nazaret",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 6,
       "title": "Nawiedzenie Elżbiety przez Maryję",
       "scripture": "Łk 1,39-56",
-      "description": "Maryja u Elżbiety – Magnificat",
+      "description": "Maryja u Elżbiety – Jan podskakuje w łonie; Magnificat Maryi pełen ST.",
       "year": "~6 BC",
       "location": "Wyżyna Judzka",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 7,
       "title": "Narodziny Jana Chrzciciela",
       "scripture": "Łk 1,57-80",
-      "description": "Narodzenie Jana Chrzciciela",
-      "year": "~6 BC",
+      "description": "Obrzezanie, nadanie imienia; Zachariasz odzyskuje mowę – Benedictus.",
+      "year": "~5 BC",
       "location": "Judea",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 8,
       "title": "Sen Józefa",
       "scripture": "Mt 1,18-25",
-      "description": "Sen Józefa",
-      "year": "~6 BC",
+      "description": "Anioł potwierdza dziewicze poczęcie; Józef bierze Maryję i nadaje imię Jezus.",
+      "year": "~6–5 BC",
       "location": "Nazaret",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 9,
       "title": "Narodzenie Jezusa",
       "scripture": "Łk 2,1-7",
-      "description": "Narodzenie Jezusa w Betlejem",
-      "year": "~6–4 BC",
+      "description": "Narodzenie w Betlejem podczas spisu Kwiryniusza; żłób jako znak pokory Mesjasza.",
+      "year": "~5–4 BC",
       "location": "Betlejem",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 10,
       "title": "Aniołowie i pasterze",
       "scripture": "Łk 2,8-20",
-      "description": "Aniołowie i pasterze",
-      "year": "~6–4 BC",
+      "description": "Zwiastowanie pasterzom – najniższej warstwie społecznej; Gloria in excelsis.",
+      "year": "~5–4 BC",
       "location": "Betlejem",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 11,
       "title": "Obrzezanie i ofiarowanie w świątyni",
       "scripture": "Łk 2,21-38",
-      "description": "Obrzezanie i przedstawienie w świątyni",
-      "year": "~6–4 BC",
+      "description": "Symeon (Nunc Dimittis) i Anna rozpoznają Mesjasza jako światło pogan i chwałę Izraela.",
+      "year": "~5–4 BC",
       "location": "Jerozolima, Świątynia",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 12,
       "title": "Pokłon Mędrców",
       "scripture": "Mt 2,1-12",
-      "description": "Pokłon Mędrców",
+      "description": "Magowie ze Wschodu podążają za gwiazdą; Herod zaniepokojony; dary złota, kadzidła i mirry.",
       "year": "~5–4 BC",
       "location": "Betlejem",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 13,
       "title": "Ucieczka do Egiptu i powrót",
       "scripture": "Mt 2,13-23",
-      "description": "Ucieczka do Egiptu i powrót",
+      "description": "Rzeź Niewiniątek; ucieczka do Egiptu; powrót do Nazaretu po śmierci Heroda.",
       "year": "~4 BC",
       "location": "Egipt / Nazaret",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     },
     {
       "id": 14,
       "title": "Jezus jako chłopiec w świątyni",
       "scripture": "Łk 2,41-52",
-      "description": "Dwunastoletni Jezus w świątyni",
+      "description": "Dwunastoletni Jezus pozostaje w świątyni – 'w domu mego Ojca'. Pierwsze słowa Jezusa w Ewangelii.",
       "year": "~8 AD",
       "location": "Jerozolima, Świątynia",
-      "category": "birth"
+      "category": "birth",
+      "has_details": true
     }
   ]
 }
