@@ -1,60 +1,60 @@
 {
   "id": "part12",
-  "title": "Part Twelve: The Death of Christ",
+  "title": "Część dwunasta: Śmierć Chrystusa",
   "period": "~33 AD",
   "events": [
     {
       "id": 144,
-      "title": "The Last Supper",
+      "title": "Ostatnia Wieczerza",
       "scripture": "Mt 26,20-30; Mk 14,17-26; Łk 22,14-38; J 13,1-38",
       "description": "Ostatnia Wieczerza",
       "year": "~33 AD",
-      "location": "Jerusalem, Upper Room",
+      "location": "Jerozolima, Wieczernik",
       "category": "passion-week"
     },
     {
       "id": 145,
-      "title": "Upper Room Discourse",
+      "title": "Mowa pożegnalna w Wieczerniku",
       "scripture": "J 14,1-31",
       "description": "Mowa pożegnalna – część 1",
       "year": "~33 AD",
-      "location": "Jerusalem, Upper Room",
+      "location": "Jerozolima, Wieczernik",
       "category": "teaching"
     },
     {
       "id": 146,
-      "title": "The Vine and the Branches",
+      "title": "Krzew winny i latorośle",
       "scripture": "J 15,1-17",
       "description": "Przypowieść o krzewie winnym",
       "year": "~33 AD",
-      "location": "Jerusalem",
+      "location": "Jerozolima",
       "category": "teaching"
     },
     {
       "id": 147,
-      "title": "Promise of the Holy Spirit",
+      "title": "Obietnica Ducha Świętego",
       "scripture": "J 15,18–16,33",
       "description": "Obietnica Ducha Świętego",
       "year": "~33 AD",
-      "location": "Jerusalem",
+      "location": "Jerozolima",
       "category": "teaching"
     },
     {
       "id": 148,
-      "title": "Gethsemane",
+      "title": "Getsemani",
       "scripture": "Mt 26,36-46; Mk 14,32-42; Łk 22,39-46",
       "description": "Modlitwa w Getsemani",
       "year": "~33 AD",
-      "location": "Garden of Gethsemane, Jerusalem",
+      "location": "Ogród Getsemani, Jerozolima",
       "category": "passion-week"
     },
     {
       "id": 149,
-      "title": "Betrayal and Arrest",
+      "title": "Zdrada i pojmanie",
       "scripture": "Mt 26,47-56; Mk 14,43-52; Łk 22,47-53; J 18,1-11",
       "description": "Zdrada Judasza i aresztowanie",
       "year": "~33 AD",
-      "location": "Garden of Gethsemane, Jerusalem",
+      "location": "Ogród Getsemani, Jerozolima",
       "category": "passion-week"
     }
   ]

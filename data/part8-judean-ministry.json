@@ -1,60 +1,60 @@
 {
   "id": "part8",
-  "title": "Part Eight: The Later Judean Ministry of Christ",
+  "title": "Część ósma: Późna działalność Jezusa w Judei",
   "period": "~29 AD",
   "events": [
     {
       "id": "81",
-      "title": "Warning against the Leaven",
+      "title": "Ostrzeżenie przed kwasem",
       "scripture": "Mt 16,5-12; Mk 8,13-21",
       "description": "Ostrzeżenie przed kwasem faryzeuszy",
       "year": "~29 AD",
-      "location": "Sea of Galilee",
+      "location": "Jezioro Galilejskie",
       "category": "teaching"
     },
     {
       "id": "81b",
-      "title": "Healing a Blind Man at Bethsaida",
+      "title": "Uzdrowienie niewidomego w Betsaidzie",
       "scripture": "Mk 8,22-26",
       "description": "Uzdrawianie niewidomego w Betsaidzie (dwustopniowe)",
       "year": "~29 AD",
-      "location": "Bethsaida",
+      "location": "Betsaida",
       "category": "miracle"
     },
     {
       "id": "82",
-      "title": "Peter's Great Confession",
+      "title": "Wyznanie Piotra",
       "scripture": "Mt 16,13-20; Mk 8,27-30; Łk 9,18-21",
       "description": "Wyznanie Piotra pod Cezareą Filipową",
       "year": "~29 AD",
-      "location": "Caesarea Philippi",
+      "location": "Cezarea Filipowa",
       "category": "milestone"
     },
     {
       "id": "83",
-      "title": "First Prediction of Death",
+      "title": "Pierwsza zapowiedź śmierci",
       "scripture": "Mt 16,21-23; Mk 8,31-33; Łk 9,22",
       "description": "Pierwsza zapowiedź męki",
       "year": "~29 AD",
-      "location": "Caesarea Philippi",
+      "location": "Cezarea Filipowa",
       "category": "milestone"
     },
     {
       "id": "84",
-      "title": "Implications of Discipleship",
+      "title": "Warunki uczniowstwa",
       "scripture": "Mt 16,24-28; Mk 8,34–9,1; Łk 9,23-27",
       "description": "Warunki bycia uczniem",
       "year": "~29 AD",
-      "location": "Caesarea Philippi",
+      "location": "Cezarea Filipowa",
       "category": "teaching"
     },
     {
       "id": "85",
-      "title": "The Transfiguration",
+      "title": "Przemienienie Pańskie",
       "scripture": "Mt 17,1-8; Mk 9,2-8; Łk 9,28-36",
       "description": "Przemienienie Pańskie",
       "year": "~29 AD",
-      "location": "Mount Hermon",
+      "location": "Góra Hermon",
       "category": "milestone"
     }
   ]

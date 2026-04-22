@@ -1,69 +1,69 @@
 {
   "id": "part10",
-  "title": "Part Ten: The Final Week",
+  "title": "Część dziesiąta: Ostatni tydzień",
   "period": "~33 AD",
   "events": [
     {
       "id": 128,
-      "title": "Triumphal Entry",
+      "title": "Wjazd triumfalny",
       "scripture": "Mt 21,1-11.14-17; Mk 11,1-11; Łk 19,29-44; J 12,12-19",
       "description": "Wjazd triumfalny Jezusa do Jerozolimy",
       "year": "~33 AD",
-      "location": "Jerusalem",
+      "location": "Jerozolima",
       "category": "passion-week"
     },
     {
       "id": 129,
-      "title": "Cleansing the Temple (Second Time)",
+      "title": "Oczyszczenie świątyni (po raz drugi)",
       "scripture": "Mt 21,12-13; Mk 11,15-19; Łk 19,45-48",
       "description": "Drugie oczyszczenie świątyni",
       "year": "~33 AD",
-      "location": "Jerusalem, Temple",
+      "location": "Jerozolima, Świątynia",
       "category": "passion-week"
     },
     {
       "id": 130,
-      "title": "Cursing the Fig Tree",
+      "title": "Przekleństwo figowca",
       "scripture": "Mt 21,18-22; Mk 11,12-14.20-26",
       "description": "Przekleństwo figowca",
       "year": "~33 AD",
-      "location": "Bethany / Jerusalem",
+      "location": "Betania / Jerozolima",
       "category": "passion-week"
     },
     {
       "id": 131,
-      "title": "Authority Challenged",
+      "title": "Kwestionowanie władzy Jezusa",
       "scripture": "Mt 21,23-27; Mk 11,27-33; Łk 20,1-8",
       "description": "Pytanie o władzę Jezusa",
       "year": "~33 AD",
-      "location": "Jerusalem, Temple",
+      "location": "Jerozolima, Świątynia",
       "category": "passion-week"
     },
     {
       "id": 132,
-      "title": "Parables of Warning",
+      "title": "Przypowieści ostrzegawcze",
       "scripture": "Mt 21,28–22,14; Mk 12,1-12; Łk 20,9-19",
       "description": "Przypowieści o winnej górze i weselu",
       "year": "~33 AD",
-      "location": "Jerusalem, Temple",
+      "location": "Jerozolima, Świątynia",
       "category": "passion-week"
     },
     {
       "id": 133,
-      "title": "Taxes to Caesar",
+      "title": "Podatek cesarski",
       "scripture": "Mt 22,15-22; Mk 12,13-17; Łk 20,20-26",
       "description": "Pytanie o podatek cesarski",
       "year": "~33 AD",
-      "location": "Jerusalem, Temple",
+      "location": "Jerozolima, Świątynia",
       "category": "passion-week"
     },
     {
       "id": 134,
-      "title": "Marriage and Resurrection",
+      "title": "Małżeństwo i zmartwychwstanie",
       "scripture": "Mt 22,23-33; Mk 12,18-27; Łk 20,27-40",
       "description": "Pytanie saduceuszy o zmartwychwstanie",
       "year": "~33 AD",
-      "location": "Jerusalem, Temple",
+      "location": "Jerozolima, Świątynia",
       "category": "passion-week"
     }
   ]

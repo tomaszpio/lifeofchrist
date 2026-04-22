@@ -1,87 +1,87 @@
 {
   "id": "part7",
-  "title": "Part Seven: Breaking Away from Galilee",
+  "title": "Część siódma: Opuszczenie Galilei",
   "period": "~29 AD",
   "events": [
     {
       "id": 72,
-      "title": "Aborted Attempt at R & R",
+      "title": "Nieudany odpoczynek",
       "scripture": "Mt 14,13-14; Mk 6,30-34; Łk 9,10",
       "description": "Nieudana próba odpoczynku – tłumy podążają za Jezusem",
       "year": "~29 AD",
-      "location": "Sea of Galilee",
+      "location": "Jezioro Galilejskie",
       "category": "milestone"
     },
     {
       "id": 73,
-      "title": "Feeding the 5000",
+      "title": "Rozmnożenie chleba – 5000",
       "scripture": "Mt 14,15-21; Mk 6,35-44; Łk 9,11-17; J 6,1-15",
       "description": "Nakarmienie pięciu tysięcy",
       "year": "~29 AD",
-      "location": "Near Bethsaida",
+      "location": "Koło Betsaidy",
       "category": "miracle"
     },
     {
       "id": 74,
-      "title": "Walking on Water",
+      "title": "Chodzenie po wodzie",
       "scripture": "Mt 14,22-33; Mk 6,45-52; J 6,16-21",
       "description": "Jezus chodzi po wodzie",
       "year": "~29 AD",
-      "location": "Sea of Galilee",
+      "location": "Jezioro Galilejskie",
       "category": "miracle"
     },
     {
       "id": 75,
-      "title": "Healing in Gennesaret",
+      "title": "Uzdrawiania w Genezaret",
       "scripture": "Mt 14,34-36; Mk 6,53-56",
       "description": "Uzdrawianie w Genezaret",
       "year": "~29 AD",
-      "location": "Gennesaret",
+      "location": "Genezaret",
       "category": "miracle"
     },
     {
       "id": 76,
-      "title": "Bread of Life Discourse",
+      "title": "Mowa o Chlebie Życia",
       "scripture": "J 6,22-71",
       "description": "Mowa o Chlebie Życia",
       "year": "~29 AD",
-      "location": "Capernaum",
+      "location": "Kafarnaum",
       "category": "teaching"
     },
     {
       "id": 77,
-      "title": "Tradition of the Elders",
+      "title": "Tradycje starszych",
       "scripture": "Mt 15,1-20; Mk 7,1-23",
       "description": "Tradycje starszych",
       "year": "~29 AD",
-      "location": "Galilee",
+      "location": "Galilea",
       "category": "teaching"
     },
     {
       "id": 78,
-      "title": "Ministry in Tyre and Sidon",
+      "title": "Działalność w Tyrze i Sydonie",
       "scripture": "Mt 15,21-28; Mk 7,24-30",
       "description": "Kobieta kananejska",
       "year": "~29 AD",
-      "location": "Tyre and Sidon",
+      "location": "Tyr i Sydon",
       "category": "miracle"
     },
     {
       "id": 79,
-      "title": "Healing the Deaf-Mute",
+      "title": "Uzdrowienie głuchoniemego",
       "scripture": "Mk 7,31-37",
       "description": "Uzdrawianie głuchoniemego",
       "year": "~29 AD",
-      "location": "Decapolis",
+      "location": "Dekapol",
       "category": "miracle"
     },
     {
       "id": 80,
-      "title": "Feeding the 4000",
+      "title": "Rozmnożenie chleba – 4000",
       "scripture": "Mt 15,29-39; Mk 8,1-10",
       "description": "Nakarmienie czterech tysięcy",
       "year": "~29 AD",
-      "location": "Decapolis",
+      "location": "Dekapol",
       "category": "miracle"
     }
   ]

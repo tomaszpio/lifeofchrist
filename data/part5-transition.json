@@ -1,20 +1,20 @@
 {
   "id": "part5",
-  "title": "Part Five: Transition from John to Jesus",
+  "title": "Część piąta: Przejście od Jana do Jezusa",
   "period": "~27 AD",
   "events": [
     {
       "id": 24,
-      "title": "Jesus' Baptism",
+      "title": "Chrzest Jezusa",
       "scripture": "Mt 3,13-17; Mk 1,9-11; Łk 3,21-23",
       "description": "Chrzest Jezusa w Jordanie i głos z nieba",
       "year": "~27 AD",
-      "location": "Jordan River",
+      "location": "Rzeka Jordan",
       "category": "ministry-start"
     },
     {
       "id": 25,
-      "title": "Jesus' Genealogy",
+      "title": "Rodowód Jezusa",
       "scripture": "Łk 3,23-38",
       "description": "Rodowód Jezusa (przez Maryję)",
       "year": "~27 AD",
@@ -23,29 +23,29 @@
     },
     {
       "id": 26,
-      "title": "Temptation of Jesus",
+      "title": "Kuszenie Jezusa",
       "scripture": "Mt 4,1-11; Mk 1,12-13; Łk 4,1-13",
       "description": "Kuszenie Jezusa na pustyni",
       "year": "~27 AD",
-      "location": "Judean Desert",
+      "location": "Pustynia Judzka",
       "category": "ministry-start"
     },
     {
       "id": 27,
-      "title": "John's Testimony about Jesus",
+      "title": "Świadectwo Jana o Jezusie",
       "scripture": "J 1,15-34",
       "description": "Świadectwo Jana Chrzciciela o Jezusie",
       "year": "~27 AD",
-      "location": "Bethany beyond the Jordan",
+      "location": "Betania za Jordanem",
       "category": "ministry-start"
     },
     {
       "id": 28,
-      "title": "First Disciples",
+      "title": "Pierwsi uczniowie",
       "scripture": "J 1,35-51",
       "description": "Pierwsi uczniowie: Andrzej, Piotr, Filip, Natanael",
       "year": "~27 AD",
-      "location": "Bethany beyond the Jordan",
+      "location": "Betania za Jordanem",
       "category": "ministry-start"
     }
   ]

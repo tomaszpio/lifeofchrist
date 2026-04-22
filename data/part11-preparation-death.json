@@ -1,51 +1,51 @@
 {
   "id": "part11",
-  "title": "Part Eleven: Preparation for the Death of Christ",
+  "title": "Część jedenasta: Przygotowanie na śmierć Chrystusa",
   "period": "~33 AD",
   "events": [
     {
       "id": 139,
-      "title": "Olivet Discourse – Setting the Stage",
+      "title": "Mowa na Górze Oliwnej – wprowadzenie",
       "scripture": "Mt 24,1-3; Mk 13,1-4; Łk 21,5-7",
       "description": "Wstęp do mowy na Górze Oliwnej",
       "year": "~33 AD",
-      "location": "Mount of Olives, Jerusalem",
+      "location": "Góra Oliwna, Jerozolima",
       "category": "passion-week"
     },
     {
       "id": 140,
-      "title": "Signs of the End",
+      "title": "Znaki końca",
       "scripture": "Mt 24,4-31; Mk 13,5-27; Łk 21,8-28",
       "description": "Znaki końca czasów",
       "year": "~33 AD",
-      "location": "Mount of Olives, Jerusalem",
+      "location": "Góra Oliwna, Jerozolima",
       "category": "teaching"
     },
     {
       "id": 141,
-      "title": "Parable of the Fig Tree",
+      "title": "Przypowieść o figowcu",
       "scripture": "Mt 24,32-35; Mk 13,28-31; Łk 21,29-33",
       "description": "Przypowieść o figowcu",
       "year": "~33 AD",
-      "location": "Mount of Olives, Jerusalem",
+      "location": "Góra Oliwna, Jerozolima",
       "category": "teaching"
     },
     {
       "id": 142,
-      "title": "Watchfulness",
+      "title": "Wezwanie do czujności",
       "scripture": "Mt 24,36-51; Mk 13,32-37; Łk 21,34-38",
       "description": "Wezwanie do czujności",
       "year": "~33 AD",
-      "location": "Mount of Olives, Jerusalem",
+      "location": "Góra Oliwna, Jerozolima",
       "category": "teaching"
     },
     {
       "id": 143,
-      "title": "Last Supper Preparations",
+      "title": "Przygotowania do Ostatniej Wieczerzy",
       "scripture": "Mt 26,17-19; Mk 14,12-16; Łk 22,7-13",
       "description": "Przygotowanie Wieczerzy Pańskiej",
       "year": "~33 AD",
-      "location": "Jerusalem",
+      "location": "Jerozolima",
       "category": "passion-week"
     }
   ]

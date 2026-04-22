@@ -1,11 +1,11 @@
 {
   "id": "part1",
-  "title": "Part One: Beginnings",
+  "title": "Część pierwsza: Początki",
   "period": "",
   "events": [
     {
       "id": 1,
-      "title": "Luke's Introduction to His Gospel",
+      "title": "Wstęp Łukasza do Ewangelii",
       "scripture": "Łk 1,1-4",
       "description": "Wstęp Łukasza – cel, metoda badań i adresat (Teofil)",
       "year": "",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "title": "John's Introduction to Jesus",
+      "title": "Prolog Jana – Kim jest Jezus",
       "scripture": "J 1,1-18",
       "description": "Prolog Ewangelii Jana – Jezus jako Logos, Bóg, Stwórca, Światłość",
       "year": "",
