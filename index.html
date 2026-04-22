@@ -282,6 +282,158 @@
     .dot-passion-week   { background: var(--cat-passion-week) !important;   box-shadow: 0 0 0 1px var(--cat-passion-week) !important; }
     .dot-resurrection   { background: var(--cat-resurrection) !important;   box-shadow: 0 0 0 1px var(--cat-resurrection) !important; }
 
+    /* ── Modal ── */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 9, 20, 0.85);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-overlay.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      max-width: 600px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 32px 28px 28px;
+      position: relative;
+      transform: translateY(16px);
+      transition: transform 0.25s ease;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .modal-overlay.open .modal {
+      transform: translateY(0);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: color 0.2s, background 0.2s;
+    }
+
+    .modal-close:hover {
+      color: var(--text);
+      background: var(--border);
+    }
+
+    .modal-scripture {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.75rem;
+      color: var(--accent-light);
+      font-style: italic;
+      margin-bottom: 8px;
+    }
+
+    .modal-title {
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: var(--accent);
+      margin-bottom: 20px;
+      padding-right: 32px;
+      line-height: 1.4;
+    }
+
+    .modal-description {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .modal-comments {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .modal-comment-block h4 {
+      font-size: 0.8rem;
+      font-family: 'Arial', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .modal-comment-block p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      white-space: pre-line;
+    }
+
+    .modal-source {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 0.72rem;
+      font-family: 'Arial', sans-serif;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    .modal-loading {
+      text-align: center;
+      padding: 32px 0;
+      color: var(--text-muted);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    /* ── Info button ── */
+    .event-info-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 1px solid var(--accent);
+      background: none;
+      color: var(--accent);
+      font-size: 0.7rem;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      flex-shrink: 0;
+    }
+
+    .event-info-btn:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
+
     /* ── Mobile ── */
     @media (max-width: 640px) {
       header {
@@ -381,6 +533,15 @@
 
 <div id="app"></div>
 
+<div id="modal-overlay" class="modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" aria-label="Zamknij">×</button>
+    <div class="modal-scripture"></div>
+    <h2 class="modal-title"></h2>
+    <div class="modal-body"></div>
+  </div>
+</div>
+
 <script>
   async function init() {
     const app = document.getElementById('app');
@@ -394,7 +555,7 @@
 
     sections.forEach(section => {
       const heading = buildSectionHeading(section);
-      const timeline = buildTimeline(section.events);
+      const timeline = buildTimeline(section.events, section.id);
       heading.classList.add('collapsed');
       timeline.classList.add('collapsed');
       heading.addEventListener('click', () => toggleSection(heading, timeline));
@@ -426,24 +587,30 @@
     if (!isCollapsed) observeEvents();
   }
 
-  function buildTimeline(events) {
+  function buildTimeline(events, partId) {
     const timeline = document.createElement('div');
     timeline.className = 'timeline';
-    events.forEach(event => timeline.appendChild(buildEventEl(event)));
+    events.forEach(event => timeline.appendChild(buildEventEl(event, partId)));
     return timeline;
   }
 
-  function buildEventEl(event) {
+  function buildEventEl(event, partId) {
     const el = document.createElement('article');
     el.className = 'event';
 
     const dotClass = `dot-${event.category ?? 'milestone'}`;
+    const infoBtn = event.has_details
+      ? `<button class="event-info-btn" data-event-id="${event.id}" data-part-id="${partId}" title="Komentarz autora">i</button>`
+      : '';
 
     el.innerHTML = `
       <div class="event-card">
         <h3>${event.title}</h3>
         <p>${event.description}</p>
-        <span class="event-scripture">${event.scripture}</span>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:10px;">
+          <span class="event-scripture">${event.scripture}</span>
+          ${infoBtn}
+        </div>
       </div>
       <div class="event-dot"><div class="dot ${dotClass}"></div></div>
       <div class="event-meta">
@@ -452,6 +619,65 @@
       </div>
     `;
     return el;
+  }
+
+  // ── Modal ──
+  const detailsCache = {};
+  const overlay = document.getElementById('modal-overlay');
+  const modalScripture = overlay.querySelector('.modal-scripture');
+  const modalTitle = overlay.querySelector('.modal-title');
+  const modalBody = overlay.querySelector('.modal-body');
+
+  overlay.querySelector('.modal-close').addEventListener('click', closeModal);
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  document.addEventListener('click', async e => {
+    const btn = e.target.closest('.event-info-btn');
+    if (!btn) return;
+
+    const eventId = btn.dataset.eventId;
+    const partId  = btn.dataset.partId;
+    const card    = btn.closest('.event-card');
+
+    modalScripture.textContent = card.querySelector('.event-scripture').textContent;
+    modalTitle.textContent     = card.querySelector('h3').textContent;
+    modalBody.innerHTML        = '<div class="modal-loading">Ładowanie…</div>';
+    openModal();
+
+    try {
+      if (!detailsCache[partId]) {
+        const res = await fetch(`data/details/${partId}.json`);
+        if (!res.ok) throw new Error();
+        detailsCache[partId] = await res.json();
+      }
+      const detail = detailsCache[partId][eventId];
+      if (!detail) throw new Error();
+      renderModalContent(detail);
+    } catch {
+      modalBody.innerHTML = '<div class="modal-loading">Brak szczegółowych danych.</div>';
+    }
+  });
+
+  function openModal()  { overlay.classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function closeModal() { overlay.classList.remove('open'); document.body.style.overflow = ''; }
+
+  function renderModalContent(detail) {
+    let html = '';
+    if (detail.author_comments) {
+      html += '<div class="modal-comments">';
+      for (const block of detail.author_comments) {
+        html += `<div class="modal-comment-block">
+          <h4>${block.heading}</h4>
+          <p>${block.text}</p>
+        </div>`;
+      }
+      html += '</div>';
+    }
+    if (detail.source) {
+      html += `<div class="modal-source">Źródło: ${detail.source}</div>`;
+    }
+    modalBody.innerHTML = html || '<div class="modal-loading">Brak szczegółowych danych.</div>';
   }
 
   function observeEvents() {

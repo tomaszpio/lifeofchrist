@@ -1,27 +1,27 @@
 {
   "id": "part1",
   "title": "Część pierwsza: Początki",
-  "period": "Ok. 6-4 p.n.e. / przed publiczną służbą Jezusa",
+  "period": "Ok. 6–4 p.n.e. / przed publiczną służbą Jezusa",
   "events": [
     {
       "id": 1,
       "title": "Wstęp Łukasza do Ewangelii",
       "scripture": "Łk 1,1-4",
-      "description": "Formalny wstęp historyczny Łukasza: motywacja (wielu poprzedników), trzy źródła badań (wydarzenia, pisma, świadkowie), kompetencje ('zbadałem dokładnie od początku'), cel ('pewność nauki' dla Teofila). Podkreślenie rzetelności historycznej i teologicznego sensu wydarzeń.",
+      "description": "Formalny wstęp historyczny – motywacja, trzy warstwy źródeł, kompetencje badacza i cel: 'abyś poznał pewność' nauki. Łukasz jako rzetelny historyk w stylu hellenistycznym.",
       "year": "",
       "location": "",
       "category": "prologue",
-      "author_comments": "Łukasz jako hellenistyczny historyk; 'porządnie' sugeruje porządek chronologiczny; Teofil prawdopodobnie realna osoba wysokiego statusu."
+      "has_details": true
     },
     {
       "id": 2,
       "title": "Prolog Jana – Kim jest Jezus (Logos)",
       "scripture": "J 1,1-18",
-      "description": "Jezus jako przedwieczne Słowo (Logos): Bóg, Stwórca, Światłość i Życie. Poetycki/hymniczny wstęp łączący stworzenie, wcielenie i objawienie. Kluczowe grecko-żydowskie tło terminu 'Logos'.",
+      "description": "Jezus jako przedwieczne Słowo (Logos): Bóg, Stwórca, Światłość i Życie. Poetycki wstęp łączący stworzenie, wcielenie i objawienie.",
       "year": "",
       "location": "",
       "category": "prologue",
-      "author_comments": "Prolog nadaje ton całej Ewangelii; Jezus w pełni boski i wcielony; odtwarza motywy ST (Stworzenie/Exodus)."
+      "has_details": true
     }
   ]
 }
