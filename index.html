@@ -79,6 +79,8 @@
       display: flex;
       align-items: center;
       gap: 16px;
+      cursor: pointer;
+      user-select: none;
     }
 
     .section-heading::before,
@@ -87,11 +89,21 @@
       flex: 1;
       height: 1px;
       background: var(--border);
+      transition: background 0.2s;
+    }
+
+    .section-heading:hover::before,
+    .section-heading:hover::after {
+      background: var(--accent);
     }
 
     .section-heading-inner {
       text-align: center;
       flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
     }
 
     .section-heading-inner h2 {
@@ -106,6 +118,46 @@
       color: var(--text-muted);
       font-family: 'Arial', sans-serif;
       font-style: italic;
+    }
+
+    .section-toggle {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      font-family: 'Arial', sans-serif;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s;
+    }
+
+    .section-heading:hover .section-toggle {
+      color: var(--accent);
+    }
+
+    .section-toggle-arrow {
+      display: inline-block;
+      transition: transform 0.3s ease;
+    }
+
+    .section-heading.collapsed .section-toggle-arrow {
+      transform: rotate(-90deg);
+    }
+
+    /* ── Collapsible timeline ── */
+    .timeline {
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease;
+      max-height: 9999px;
+      opacity: 1;
+    }
+
+    .timeline.collapsed {
+      max-height: 0 !important;
+      opacity: 0;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
     /* ── Timeline ── */
@@ -271,8 +323,10 @@
     );
 
     sections.forEach(section => {
-      app.appendChild(buildSectionHeading(section));
+      const heading = buildSectionHeading(section);
       const timeline = buildTimeline(section.events);
+      heading.addEventListener('click', () => toggleSection(heading, timeline));
+      app.appendChild(heading);
       app.appendChild(timeline);
     });
 
@@ -286,9 +340,18 @@
       <div class="section-heading-inner">
         <h2>${section.title}</h2>
         <span>${section.period ?? ''}</span>
+        <div class="section-toggle">
+          <span class="section-toggle-arrow">▾</span> zwiń / rozwiń
+        </div>
       </div>
     `;
     return el;
+  }
+
+  function toggleSection(heading, timeline) {
+    const isCollapsed = timeline.classList.toggle('collapsed');
+    heading.classList.toggle('collapsed', isCollapsed);
+    if (!isCollapsed) observeEvents();
   }
 
   function buildTimeline(events) {
