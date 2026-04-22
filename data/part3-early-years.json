@@ -7,136 +7,151 @@
       "id": 9,
       "title": "Józef dowiaduje się o Jezusie",
       "scripture": "Mt 1,18-25",
-      "description": "Józef dowiaduje się o poczęciu Maryi",
-      "year": "~6 BC",
+      "description": "Anioł we śnie potwierdza Józefowi dziewicze poczęcie; Józef bierze Maryję za żonę.",
+      "year": "~6–5 BC",
       "location": "Nazaret",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 10,
       "title": "Narodzenie Jezusa",
       "scripture": "Łk 2,1-7",
-      "description": "Narodzenie Jezusa w Betlejem",
-      "year": "~6–4 BC",
+      "description": "Narodzenie w Betlejem podczas spisu; położenie w żłobie.",
+      "year": "~5–4 BC",
       "location": "Betlejem",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 11,
       "title": "Aniołowie i pasterze",
       "scripture": "Łk 2,8-20",
-      "description": "Zwiastowanie pasterzom",
-      "year": "~6–4 BC",
+      "description": "Zwiastowanie pasterzom; chwała Bogu i pokój ludziom.",
+      "year": "~5–4 BC",
       "location": "Betlejem",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 12,
       "title": "Obrzezanie i ofiarowanie w świątyni",
       "scripture": "Łk 2,21-38",
-      "description": "Obrzezanie i Symeon + Anna",
-      "year": "~6–4 BC",
-      "location": "Jerozolima, Świątynia",
-      "category": "early-life"
+      "description": "Symeon (Nunc Dimittis) i Anna – Jezus jako światło pogan.",
+      "year": "~5–4 BC",
+      "location": "Jerozolima",
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 13,
       "title": "Pokłon Mędrców",
       "scripture": "Mt 2,1-12",
-      "description": "Pokłon Mędrców",
+      "description": "Mędrcy ze Wschodu oddają pokłon; Herod zaniepokojony.",
       "year": "~5–4 BC",
       "location": "Betlejem",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 14,
       "title": "Ucieczka do Egiptu i powrót",
       "scripture": "Mt 2,13-23",
-      "description": "Ucieczka do Egiptu i powrót do Nazaretu",
+      "description": "Rzeź niewiniątek; powrót do Nazaretu po śmierci Heroda.",
       "year": "~4 BC",
-      "location": "Egipt / Nazaret",
-      "category": "early-life"
+      "location": "Egipt → Nazaret",
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 15,
       "title": "Jezus jako chłopiec w świątyni",
       "scripture": "Łk 2,41-52",
-      "description": "Dwunastoletni Jezus w świątyni",
+      "description": "Dwunastoletni Jezus w świątyni: 'Czy nie wiedzieliście, że powinienem być w domu mego Ojca?'",
       "year": "~8 AD",
-      "location": "Jerozolima, Świątynia",
-      "category": "early-life"
+      "location": "Jerozolima",
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 16,
       "title": "Wczesne życie Jana Chrzciciela",
       "scripture": "Łk 1,80",
-      "description": "Wzrost Jana na pustyni",
-      "year": "~6 BC – 26 AD",
+      "description": "Jan rośnie na pustyni, umacnia się w duchu.",
+      "year": "~5 BC – 26 AD",
       "location": "Pustynia Judzka",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 17,
       "title": "Wczesne życie Jezusa",
       "scripture": "Łk 2,40.52",
-      "description": "Wzrost i rozwój Jezusa w Nazarecie",
+      "description": "Jezus rośnie w mądrości, postępie i łasce u Boga i ludzi.",
       "year": "~4 BC – 26 AD",
       "location": "Nazaret",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 18,
       "title": "Początek działalności Jana Chrzciciela",
       "scripture": "Mt 3,1-6; Mk 1,2-6; Łk 3,1-6",
-      "description": "Początek działalności Jana Chrzciciela",
+      "description": "Jan na pustyni – chrzest pokuty; cytaty z Izajasza i Malachiasza.",
       "year": "~26–27 AD",
-      "location": "Pustynia Judzka / Rzeka Jordan",
-      "category": "ministry-start"
+      "location": "Pustynia Judzka / Jordan",
+      "category": "ministry-start",
+      "has_details": true
     },
     {
       "id": 19,
       "title": "Kazanie Jana o nawróceniu",
       "scripture": "Mt 3,7-10; Łk 3,7-14",
-      "description": "Kazanie Jana o pokucie",
+      "description": "„Plemię żmij!” – owoc pokuty, nie wystarczy pochodzenie od Abrahama.",
       "year": "~26–27 AD",
-      "location": "Rzeka Jordan",
-      "category": "ministry-start"
+      "location": "Jordan",
+      "category": "ministry-start",
+      "has_details": true
     },
     {
       "id": 20,
       "title": "Proroctwo mesjańskie Jana",
       "scripture": "Mt 3,11-12; Mk 1,7-8; Łk 3,15-18",
-      "description": "Jan zapowiada Mocniejszego",
+      "description": "Jan zapowiada Mocniejszego – chrzest Duchem i ogniem.",
       "year": "~26–27 AD",
-      "location": "Rzeka Jordan",
-      "category": "ministry-start"
+      "location": "Jordan",
+      "category": "ministry-start",
+      "has_details": true
     },
     {
       "id": 21,
       "title": "Chrzest Jezusa",
       "scripture": "Mt 3,13-17; Mk 1,9-11; Łk 3,21-23",
-      "description": "Chrzest Jezusa",
+      "description": "Chrzest Jezusa w Jordanie; objawienie Trójcy.",
       "year": "~27 AD",
-      "location": "Rzeka Jordan",
-      "category": "ministry-start"
+      "location": "Jordan",
+      "category": "ministry-start",
+      "has_details": true
     },
     {
       "id": 22,
       "title": "Rodowód Jezusa",
       "scripture": "Łk 3,23-38",
-      "description": "Rodowód Jezusa",
+      "description": "Rodowód przez Maryję – od Adama (uniwersalizm).",
       "year": "~27 AD",
       "location": "",
-      "category": "early-life"
+      "category": "early-life",
+      "has_details": true
     },
     {
       "id": 23,
       "title": "Kuszenie Jezusa",
       "scripture": "Mt 4,1-11; Mk 1,12-13; Łk 4,1-13",
-      "description": "Kuszenie Jezusa na pustyni",
+      "description": "Trzy pokusy na pustyni – zwycięstwo cytatami z Powtórzonego Prawa.",
       "year": "~27 AD",
       "location": "Pustynia Judzka",
-      "category": "ministry-start"
+      "category": "ministry-start",
+      "has_details": true
     }
   ]
 }
